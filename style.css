@@ -1,4 +1,19 @@
-h1{color: green}
+header{
+	background-color: #454545;
+	color: #fff;
+}
 body{
-    background-color: rgb(222, 235, 211)
+    background-color: #fff;
+}
+.footer {
+	background-color: #454545;
+	color: #fff;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+.footer p{
+    margin: 0
 }
