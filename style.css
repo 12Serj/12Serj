@@ -1,13 +1,14 @@
 header{
-	background-color: #454545;
-	color: #fff;
+	background-color: #ffc107;
+	color: rgb(59, 44, 42);
 }
 body{
-    background-color: #fff;
+    background-color: rgb(209, 248, 246);
+	color: #1b437e;
 }
 .footer {
-	background-color: #454545;
-	color: #fff;
+	background-color: #ffc107;
+	color: #4e0e0e;
 	padding: 15px;
 	position: fixed;
 	width: 100%;
