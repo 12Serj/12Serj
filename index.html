@@ -7,11 +7,17 @@
      <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg justify-content-end">
             <div class="container-fluid">
               <a class="navbar-brand text-uppercase" href="/">Honey</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,9 +35,17 @@
           </nav>
     </header>
     <main class='main'>
+      <div class="video-container">
+        <h1>Мед и продукты пчеловодства</h1>
+        <video class="video-fluid z-depth-1" loop autoplay muted playsinline>
+            <source src="/video/bees.mp4" type="video/mp4">
+            <p>Sorry, there's a problem playing this video. Please try using a different browser.</p>
+        </video>
+    </div>
          <div class="container-fluid">
              <div class="row">
-                 <div class="col-md-12"> <h1>Hello Serj!!! I add new commit in you project :)</h1></div>
+
+                 <div class="col-md-12"> <h1>Content on page</h1></div>
              </div>
          </div>
     </main>
@@ -42,7 +56,6 @@
         &copy;&nbsp;All&nbsp;rights&nbsp;reserved
         </p>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src='./javascript.js'></script>
 </body>
