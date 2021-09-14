@@ -16,6 +16,7 @@ main{
   margin-bottom: 30px;
 }
 main .video-fluid {
+
 	width: 100%;
 	height: auto;
 	z-index: -1;
@@ -66,7 +67,7 @@ main .video-container:before {
 	background-size: 3px 3px;
 }
 
-
+h4 { text-align: center }
 
 footer {
 	background-color: #ffc107;
