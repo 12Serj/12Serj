@@ -68,9 +68,10 @@ main .video-container:before {
 }
 
 p.first-paragraph {
-	text-indent: 1em;
+	text-indent: 2em;
+	text-align: justify;
   }
-  
+
 
 footer {
 	background-color: #ffc107;
