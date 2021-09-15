@@ -67,7 +67,10 @@ main .video-container:before {
 	background-size: 3px 3px;
 }
 
-h4 { text-align: center }
+p.first-paragraph {
+	text-indent: 1em;
+  }
+  
 
 footer {
 	background-color: #ffc107;
