@@ -67,15 +67,13 @@ main .video-container:before {
 	background-size: 3px 3px;
 }
 
-<<<<<<< HEAD
-h4 { text-align: center }
-=======
-p.first-paragraph {
-	text-indent: 2em;
-	text-align: justify;
-  }
 
->>>>>>> aefbbaad64070ed3e14275931a6d33484c3e0144
+.text-section {background-color: #ffbf008c;}
+.text-section h4{ text-align: center; text-transform: uppercase;}
+.text-section .text-wrapper {
+	margin: 60px auto;
+	width: 700px;
+}
 
 footer {
 	background-color: #ffc107;
