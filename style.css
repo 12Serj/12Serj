@@ -75,6 +75,10 @@ main .video-container:before {
 	width: 700px;
 }
 
+.container 	{margin: 60px auto;
+		
+}
+
 footer {
 	background-color: #ffc107;
 	color: #4e0e0e;
