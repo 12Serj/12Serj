@@ -25,7 +25,7 @@ main .video-container {
 	position: relative;
 	z-index: 1;
 	max-width: 100%;
-	height: 100vh;
+	height: 100%;
 	overflow: hidden;
 	position: relative;
 	@media (max-width: 1199.98px) {
@@ -68,15 +68,38 @@ main .video-container:before {
 }
 
 
-.text-section {background-color: #ffbf008c;}
-.text-section h4{ text-align: center; text-transform: uppercase;}
+.text-section {background-color: #ffc107;}
+.text-section h4{ 
+	font:400 2.5rem/2.5rem 'Raleway', sans-serif; 
+	margin-bottom: 40px;
+	text-align: center; 
+	text-transform: uppercase;
+	color:rgba(0, 0, 0, .5);
+	letter-spacing: 1.1px; 
+}
+.text-section p{
+	font:400 1.2rem/1.8rem 'Raleway', sans-serif;
+	color:rgba(0, 0, 0, .5);
+	letter-spacing: 1.1px; 
+}
 .text-section .text-wrapper {
-	margin: 60px auto;
+	margin: 120px auto;
 	width: 700px;
 }
 
-.container 	{margin: 60px auto;
-		
+.products-section{
+	padding: 120px 0;
+	background-color: rgba(0, 0, 0, .5);
+}
+.products-section .card{
+	border-color: #ffc107; 
+	margin: 0 auto;
+}
+.products-section .card a.btn{
+	background-color: #ffc107;
+	border-color: #ffc107; 
+	color: #4e0e0e;
+	float: right;
 }
 
 footer {
