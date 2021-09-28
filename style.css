@@ -102,6 +102,11 @@ main .video-container:before {
 	float: right;
 }
 
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
 footer {
 	background-color: #ffc107;
 	color: #4e0e0e;
