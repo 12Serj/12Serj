@@ -102,6 +102,13 @@ main .video-container:before {
 	float: right;
 }
 
+.products-section .card .img-card{
+	width: auto;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 .rightimg  {
     float: right; /* Выравнивание по правому краю  */ 
     margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
