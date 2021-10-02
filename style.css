@@ -2,6 +2,12 @@ header{
 	background-color: #ffc107;
 	
 }
+.navbar{
+	background-image: url(./images/pngwing.png) !important;
+    background-size: 33%;
+    background-repeat: repeat-y;
+    background-position-y: 40%;
+}
 header .nav-link,  header a{
 	color: #4e0e0e;	
 	text-transform: uppercase;
@@ -13,7 +19,14 @@ header .navbar-brand{
 
 main{
   background-color: #fff;  
-  margin-bottom: 30px;
+}
+main h4{ 
+	font:400 2.5rem/2.5rem 'Raleway', sans-serif; 
+	margin-bottom: 80px;
+	text-align: center; 
+	text-transform: uppercase;
+	color:rgba(0, 0, 0, .5);
+	letter-spacing: 1.1px; 
 }
 main .video-fluid {
 
@@ -28,14 +41,20 @@ main .video-container {
 	height: 100%;
 	overflow: hidden;
 	position: relative;
-	@media (max-width: 1199.98px) {
-		padding-top: 124px;
+}
+@media (max-width: 1199.98px) {
+	main .video-container {
+	padding-top: -124px;
 	}
-	@media (max-width: 991.98px) {
-		padding-top: 112px;
+}
+@media (max-width: 991.98px) {
+	main .video-container {
+	padding-top: -112px;
 	}
-	@media (max-width: 767.98px) {
-		padding-top: 104px;
+}
+@media (max-width: 767.98px) {
+	main .video-container {
+	padding-top: -104px;
 	}
 }
 main .video-container h1{
@@ -69,14 +88,7 @@ main .video-container:before {
 
 
 .text-section {background-color: #ffc107;}
-.text-section h4{ 
-	font:400 2.5rem/2.5rem 'Raleway', sans-serif; 
-	margin-bottom: 40px;
-	text-align: center; 
-	text-transform: uppercase;
-	color:rgba(0, 0, 0, .5);
-	letter-spacing: 1.1px; 
-}
+
 .text-section p{
 	font:400 1.2rem/1.8rem 'Raleway', sans-serif;
 	color:rgba(0, 0, 0, .5);
