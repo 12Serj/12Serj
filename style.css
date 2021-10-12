@@ -87,7 +87,9 @@ main .video-container:before {
 }
 
 
-.text-section {background-color: #ffc107;}
+.text-section, .contacts-section {
+	background-color: #ffc107;
+}
 
 .text-section p{
 	font:400 1.2rem/1.8rem 'Raleway', sans-serif;
@@ -126,16 +128,19 @@ main .video-container:before {
     margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
    }
 
-   .contacts-section{
-	padding: 20px 0;
-	background-color: rgba(195, 247, 10, 0.5);
-	text-align: center;
-
+ .contacts-section{
+	padding: 120px 0;
+	color:#4e0e0e
 }
-
+#cooperation .img_style{
+	width: 100%;
+	max-width: 600px;
+	display: block;
+	margin: 40px auto;
+}
 footer {
-	background-color: #ffc107;
-	color: #4e0e0e;
+	background-color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, .5);
 	padding: 15px;
 	width: 100%;
 	text-align: center;
